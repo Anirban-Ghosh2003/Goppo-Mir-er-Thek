@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Goppo Mir er Thek</title>
+</head>
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="Images/Logo.jpg" alt="logo image">
+                Goppo Mir er Thek
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link" >Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About us</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">Genre</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#popular" class="nav__link">Popular</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#recently" class="nav__link">Recently</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#recently" class="nav__link">Team GMT</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+            <div class="nav__buttons">
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-apps-2-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+     <!--==================== MAIN ====================-->
+     <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <video src="Images/GMT.mp4" class="home__img" autoplay ></video>
+
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Goppo <span class="hs">Mir</span> <br>er Thek
+                    </h1>
+
+                    <h3 class="home__description">
+                        Apnar Gopper Playlist
+                        <br>
+                        Tahole... Shuru kora jaak?
+                    </h3>
+
+                    <a href="#" class="button">
+                        Listen Now <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <span class="section__subtitle">About Us</span>
+                    <h2 class="section__title about__title">
+                        Kichu bhoy, kichu rohoshyo, kichu hashi, kichu prem <br>
+                        Ei Thek e sob e ache
+                    </h2>
+
+                    <p class="about__description">
+                        Goppo Mir er Thek, Apnar Gopper Playlist
+                    </p>
+                </div>
+
+                <img src="Images/About2.jpg" alt="about image" class="about__img">
+            </div>
+
+        </section>
+
+        <!--==================== Genre ====================-->
+        <section class="popular section" id="popular">
+            <span class="section__subtitle">Genre</span>
+            <h2 class="section__title">Top Genre on GMT</h2>
+
+            <div class="popular__container container grid">
+                <article class="popular__card">
+                    <img src="Images/Pather-Panchali.jpg" alt="popular image" class="popular__img">
+                    <span class="popular__description"><h3>Classics</h3>Explore some of the best popular and not-so-popular Classics</span>
+                </article>
+
+                <article class="popular__card">
+                    <img src="Images/Pather-Dabi.jpg" alt="popular image" class="popular__img">
+                    <span class="popular__description"><h3>Mystery</h3>Immerse yourself into some edge of the seat Mystery stories</span>
+                    </button>
+                </article>
+
+                <article class="popular__card">
+                    <img src="Images/Pather-Panchali.jpg" alt="popular image" class="popular__img">
+                    <span class="popular__description"><h3>Horror</h3>Prepare to be haunted: Enter a realm of spine-chilling horror stories that will leave you trembling in the dark</span>
+                </article>
+
+                <article class="popular__card">
+                    <img src="Images/Pather-Panchali.jpg" alt="popular image" class="popular__img">
+                    <span class="popular__description"><h3>Comedy</h3>Get ready to laugh out loud: Embark on a hilarious journey through a collection of uproarious comedy stories that will tickle your funny bone</span>
+                </article>
+            </div>
+        </section>
+
+        <!--==================== POPULAR ====================-->
+        <section class="popular section" id="popular">
+            <span class="section__subtitle">The Best Presentations</span>
+            <h2 class="section__title">Popular Stories</h2>
+
+            <div class="popular__container container grid">
+                <article class="popular__card">
+                    <img src="Images/Devdas.jpg" alt="popular image" class="popular__img">
+                    <span class="popular__description"><h3>Devdas</h3>Sarat Chandra Chattopadhyay</span>
+                </article>
+
+                <article class="popular__card">
+                    <img src="Images/Pather-Dabi.jpg" alt="popular image" class="popular__img">
+                    <span class="popular__description"><h3>Pather Dabi</h3>Sarat Chandra Chattopadhyay</span>
+                    </button>
+                </article>
+
+                <article class="popular__card">
+                    <img src="Images/Pather-Panchali.jpg" alt="popular image" class="popular__img">
+                    <span class="popular__description"><h3>Pather Panchali</h3>Bibhutibhushan Bandopadhyay</span>
+                </article>
+            </div>
+            <a href="#" class="button" id="popularbutton">
+                Load More <i class="ri-arrow-right-line"></i>
+            </a>
+        </section>
+
+        <!--==================== RECENTLY ====================-->
+        <section class="recently section" id="recently">
+            <div class="recently__container container grid">
+                <div class="recently__data">
+                    <span class="section__subtitle">Recently Added</span>
+                    <h2 class="section__title">
+                        Pather Panchali <br>
+                        Ep-2
+                    </h2>
+
+                    <p class="recently__description">
+                        Take a look at what's new. And do not deprive yourself of a good story, enjoy and be happy.
+                    </p>
+
+                    <a href="#" class="button">
+                        Listen Now <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+
+                <img src="Images/Pather-Panchali.jpg" alt="recently image" class="recently__img">
+            </div>
+        </section>
+
+        <!--==================== NEWSLETTER ====================-->
+        <section class="newsletter section">
+            <div class="newsletter__container container">
+                <div class="newsletter__content grid">
+                    <div class="newsletter__data">
+                        <span class="section__subtitle">Newsletter</span>
+                        <h2 class="section__title">
+                            Subscribe For <br>
+                            Offer Updates
+                        </h2>
+
+                        <form action="" class="newsletter__form">
+                            <input type="email" placeholder="Enter email"    class="newsletter__input">
+                            <button class="button newsletter__button">
+                                Subscribe <i class="ri-send-plane-line"></i>
+                            </button>
+                        </form>
+                    </div>
+                    <img src="Images/Newsletter1.jpg" alt="newsletter image" class="newsletter__img">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <div>
+                <a href="#" class="footer__logo">
+                    <img src="Images/Logo.jpg" alt="logo image">
+                    GMT
+                </a>
+
+                <p class="footer__description">
+                    Story for the ears is not <br>
+                    enough. There must be stories <br>
+                    for the soul.
+                </p>
+            </div>
+
+            <div class="footer__content">
+                <div>
+                    <h3 class="footer__title">Main Menu</h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">About</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Menus</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Offer</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Events</a>
+                            </li>
+                        </ul>
+                    </h3>
+                </div>
+                <div>
+                    <h3 class="footer__title">Information</h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">Contact</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Order & Returns</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Videos</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Reservation</a>
+                            </li>
+                        </ul>
+                    </h3>
+                </div>
+                <div>
+                    <h3 class="footer__title">Address</h3>
+                        <ul class="footer__links">
+                            <li class="footer__information">
+                                Av. Hacienda 1234 <br>
+                                Lima 4321, Peru
+                            </li>
+                            <li class="footer__information">
+                                9AM - 11PM
+                            </li>
+                        </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Social Media</h3>
+                        <ul class="footer__social">
+                            <a href="https://www.facebook.com/"  target="_blank" class="footer__social-link">
+                                <i class="ri-facebook-circle-fill"></i>
+                            </a>
+                            <a href="https:www.instagram.com/"  target="_blank" class="footer__social-link">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://twitter.com/"  target="_blank" class="footer__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--<div class="footer__info container">
+            <div class="footer__card">
+                <img src="assets/img/footer-card-1.png" alt="footer image">
+                <img src="assets/img/footer-card-2.png" alt="footer image">
+                <img src="assets/img/footer-card-3.png" alt="footer image">
+                <img src="assets/img/footer-card-4.png" alt="footer image">
+            </div>
+
+            <span class="footer__copy">
+                &#169; Copyright Bedimcode. All rights reserved
+            </span>
+        </div>-->
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
